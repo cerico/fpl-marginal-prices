@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "FPL Real Price",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Adjusted player prices",
   "icons": {
     "48": "../icons/border-48.png"
