@@ -147,7 +147,6 @@ const formatData = async (data) => {
   for (let i = 1; i <= 4; i++) {
     const playersInPosition = data.elements.filter((e) => e.element_type === i)
     const cheapestPlayer = getCheapestPlayer(playersInPosition)
-    allPlayers[`cheapest${positions[i].short}`] = cheapestPlayer
     allPlayers[positions[i].name] = playersInPosition
     allPlayers.cheapest.push({
       position: positions[i].short.toLowerCase(),
