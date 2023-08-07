@@ -1,6 +1,6 @@
 {
   "name": "fpl",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Adjusted FPL player prices",
   "main": "init.js",
   "scripts": {

@@ -1,3 +1,13 @@
+## [0.1.3](https://github.com/cerico/fpl/compare/v0.1.2...v0.1.3) (2023-08-07)
+
+
+### Bug Fixes
+
+* correct path to manifestjson in gh action ([c9c11bb](https://github.com/cerico/fpl/commit/c9c11bba9e6c453b34bd2b7ac630b22508511ff6))
+* move manifest to top level ([11ab364](https://github.com/cerico/fpl/commit/11ab36483edd6b08f7b844caf2a0527ba8ea71e8))
+
+
+
 ## [0.1.2](https://github.com/cerico/fpl/compare/v0.1.1...v0.1.2) (2023-08-07)
 
 
