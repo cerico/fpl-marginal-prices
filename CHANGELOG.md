@@ -1,3 +1,12 @@
+## [0.1.2](https://github.com/cerico/fpl/compare/v0.1.1...v0.1.2) (2023-08-07)
+
+
+### Bug Fixes
+
+* add icons and update manifest.json ([c1f5d09](https://github.com/cerico/fpl/commit/c1f5d09ecfc73209d74d430f7600648b936ab888))
+
+
+
 ## [0.1.1](https://github.com/cerico/fpl/compare/v0.1.0...v0.1.1) (2023-08-06)
 
 
