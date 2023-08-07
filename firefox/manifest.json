@@ -4,8 +4,9 @@
   "version": "0.1.1",
   "description": "Adjusted player prices",
   "icons": {
-    "48": "../icons/border-48.png"
+    "48": "../icons/fpl-48.png"
   },
+  "homepage_url": "https://fpl.io37.ch",
   "content_scripts": [
     {
       "matches": [
@@ -15,5 +16,14 @@
         "init.js"
       ]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "garethrobertlee@gmail.com"
+    }
+  },
+  "browser_action": {
+    "default_icon": "../icons/fpl-48.png",
+    "default_title": "FPL Real Price"
+  }
 }
