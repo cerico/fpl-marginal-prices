@@ -1,14 +1,10 @@
 # FPL Marginal Prices Firefox Extension
 
-## TLDR
-
-FPL Marginal Prices is a Firefox browser extension that adjusts player prices on the Fantasy Premier League website. It shows each players price relative to the cheapest possible player in their position.
-
-![Extension Icon](icons/fpl-48.png)
+![Extension Icon](icons/fpl-200.png)
 
 ## Description
 
-To understand a player's relative value in FPL, the extension adjusts their price based on the cost of the cheapest defender in the game. For instance, if Ben Chilwell's current FPL price is 5.5m and the cheapest defender is priced at 4.0m, Chilwell's adjusted price becomes 1.5m. Should there be an overnight price drop, making the cheapest defender 3.9m, Chilwell's adjusted price would then be 1.6m.
+FPL Marginal Prices is a Firefox browser extension that adjusts player prices on the Fantasy Premier League website. It shows each players price relative to the cheapest possible player in their position. For instance, if Ben Chilwell's current FPL price is 5.5m and the cheapest defender is priced at 4.0m, Chilwell's marginal price is 1.5m. Should there be an overnight price drop, making the cheapest defender 3.9m, Chilwell's marginal price would then be 1.6m.
 
 <img src="images/fpl1.png" style="width: 600px" alt="fpl screenshot 2" width="600"/>
 
@@ -29,7 +25,7 @@ This method highlights the additional amount you're investing in Chilwell over t
 
 ## Installation
 
-1. Add the extension from the [Firefox Add-ons Store](https://addons.mozilla.org/en-US/firefox/addon/fpl-real-price/)
+1. Add the extension from the [Firefox Add-ons Store](https://addons.mozilla.org/en-US/firefox/addon/fpl-marginal-prices/)
 2. Click "Add to Firefox"
 3. After installation, navigate to the Fantasy Premier League website to see the adjusted player prices.
 
@@ -49,7 +45,7 @@ This method highlights the additional amount you're investing in Chilwell over t
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/cerico/fpl.git
+   git clone https://github.com/cerico/fpl-marginal-prices.git
    ```
 2. Load the extension in Firefox:
    - Open Firefox
