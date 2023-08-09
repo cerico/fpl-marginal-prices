@@ -1,3 +1,12 @@
+# [0.2.0](https://github.com/cerico/fpl/compare/v0.1.3...v0.2.0) (2023-08-09)
+
+
+### Features
+
+* update documentation ([52d1ee0](https://github.com/cerico/fpl/commit/52d1ee0f5ea06840aa567dce1ab1130006fef1bd))
+
+
+
 ## [0.1.3](https://github.com/cerico/fpl/compare/v0.1.2...v0.1.3) (2023-08-07)
 
 
