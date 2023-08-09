@@ -1,7 +1,7 @@
 {
-  "name": "fpl",
+  "name": "FPL Marginal Prices",
   "version": "0.1.3",
-  "description": "Adjusted FPL player prices",
+  "description": "Browser extension that adjusts player prices on the Fantasy Premier League website. It shows each players price relative to the cheapest possible player in their position.",
   "main": "init.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
