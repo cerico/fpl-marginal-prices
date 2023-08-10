@@ -33,13 +33,9 @@ jobs:
 
       - name: Create Release
         if: steps.changelog.outputs.tag
-        uses: actions/create-release@v1
+        run: gh release create ${{ steps.changelog.outputs.tag  }} --notes-file notes.text
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ steps.changelog.outputs.tag }}
-          release_name: Release ${{ steps.changelog.outputs.tag }}
-          body_path: notes.text
 
       - name: Setup Node.js environment
         uses: actions/setup-node@v2
