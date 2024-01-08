@@ -6,3 +6,5 @@ deploy_key:
 	gh secret set DEPLOY_KEY < ~/.ssh/rhyl/id_rsa
 zip:
 	zip -r fpl.zip *
+%:
+	@$(MAKE) tldr
