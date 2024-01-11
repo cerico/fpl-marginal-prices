@@ -1,3 +1,17 @@
+# [0.4.0](https://github.com/cerico/fpl-marginal-prices/compare/v0.3.0...v0.4.0) (2024-01-11)
+
+
+### Bug Fixes
+
+* update workflow syntax of readme publishing ([9b7c5b5](https://github.com/cerico/fpl-marginal-prices/commit/9b7c5b53d5d495be8ad8a65b6a431a70a4d86d7e))
+
+
+### Features
+
+* run tldr in makefile if no rule ([5be2d23](https://github.com/cerico/fpl-marginal-prices/commit/5be2d23b4cc49a1cd679bd33c6da5cfaf8dffb61))
+
+
+
 # [0.3.0](https://github.com/cerico/fpl-marginal-prices/compare/v0.2.0...v0.3.0) (2023-08-09)
 
 

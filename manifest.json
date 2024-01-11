@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "FPL Marginal Prices",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Adjusts player prices on the Fantasy Premier League website. It shows each players price relative to the cheapest possible player in their position.",
   "icons": {
     "48": "icons/fpl-48.png"
